@@ -215,7 +215,7 @@ p {
 
 /* Hero Section */
 #hero {
-  background-image: url(../images/office.jpg);
+  background-image: url(../images/Wilf_O_Reilly_-_hero.jpg);
   background-size: cover;
   background-position: top center;
   position: relative;
@@ -307,7 +307,7 @@ p {
   text-align: center;
   max-width: 1500px;
   margin: 0 auto;
-  padding: 100px 0;
+  /* padding: 55px 0; */
 }
 #services .service-top {
   max-width: 500px;
@@ -457,6 +457,9 @@ p {
 #about .col-left {
   width: 250px;
   height: 360px;
+  @media only screen and (max-width: 600px) {
+    padding: 30rem;
+  }
 }
 #about .col-right {
   width: 100%;
